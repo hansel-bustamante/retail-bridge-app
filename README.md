@@ -19,6 +19,9 @@ Este proyecto demuestra la integración avanzada entre el framework **Flutter** 
 <p align="center">
   <img src="screenshots/cap1.jpg" width="300" alt="Dashboard Principal" />
   <img src="screenshots/cap2.jpg" width="300" alt="Proceso de Sincronización" />
+  <img src="screenshots/cap3.jpg" width="300" alt="Proceso de Sincronización" />
 </p>
+
 ---
+
 Desarrollado por **Hansel Alain Bustamante** - Ingeniero de Sistemas (UMSA).
