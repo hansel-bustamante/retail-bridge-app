@@ -1,0 +1,6 @@
+[
+  {"id": 1, "nombre": "Terminal de Pago XZ", "stock": 45, "precio": 299.99},
+  {"id": 2, "nombre": "Scanner Código de Barras", "stock": 12, "precio": 85.50},
+  {"id": 3, "nombre": "Impresora Térmica v2", "stock": 8, "precio": 120.00},
+  {"id": 4, "nombre": "Lector Biométrico", "stock": 25, "precio": 450.00}
+]
