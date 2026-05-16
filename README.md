@@ -1,17 +1,24 @@
-# retail_bridge_app
+# Retail Bridge Pro 
 
-A new Flutter project.
+**Ingeniería de Sistemas | Mobile Architecture Showcase**
 
-## Getting Started
+Este proyecto demuestra la integración avanzada entre el framework **Flutter** y el sistema operativo **Android (Nativo)** mediante el uso de `Platform Channels`. Diseñado bajo los estándares de escalabilidad requeridos en sectores como la Banca y el Retail.
 
-This project is a starting point for a Flutter application.
+## Tecnologías Destacadas
+- **Flutter & Dart:** Para una interfaz de usuario reactiva y moderna.
+- **Java (Android Nativo):** Implementación de servicios de hardware mediante `MethodChannel`.
+- **Arquitectura Offline-First:** Gestión de datos mediante JSON local y simulador de sincronización asíncrona.
 
-A few resources to get you started if this is your first Flutter project:
+## Desafíos Técnicos Resueltos
+1. **Comunicación Bidireccional:** Inyección de lógica nativa en Java dentro del motor de Flutter para consultar el estado del hardware (Batería/Sistema).
+2. **UX en Retail:** Implementación de estados de carga (`isSyncing`) y manejo de asincronía para evitar el bloqueo del hilo principal de la interfaz.
+3. **Gestión de Recursos:** Estructura modular para facilitar la migración de datos locales a servicios RESTful en el futuro.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Capturas de Pantalla
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="screenshots/cap1.jpg" width="300" alt="Dashboard Principal" />
+  <img src="screenshots/cap2.jpg" width="300" alt="Proceso de Sincronización" />
+</p>
+---
+Desarrollado por **Hansel Alain Bustamante** - Ingeniero de Sistemas (UMSA).
